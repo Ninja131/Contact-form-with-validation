@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #151c23;
+    font-family: sans-serif;
+}
+.contact_container{
+    background-color: aliceblue;
+    max-width: 500px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 8px;
+    padding: 2rem 2rem;
+    position: relative;
+}
+
+.Contact_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: aliceblue;
+
+    width: 52px;
+    height: 52px;
+    box-shadow: 1px 1px 10px rgba(58, 58, 58, 0.414);
+    position: absolute;
+    top: -26px;
+
+}
+
+.Contact_logo i{
+    font-size: 1.25rem;
+}
+
+.input_group{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+       position: relative;
+}
+
+.input_group label{
+    width: 120px;
+    /* background-color: aquamarine; */
+}
+.input_group input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 8px 0;
+    border-bottom: 2px solid rgba(158, 158, 158, 0.359);
+ 
+}
+
+
+.Text_box{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(158, 158, 158);
+
+}
+button{
+    padding: 12px 32px;
+    background-color: #151c23;
+    color: aliceblue;
+    border-radius: 4px;
+    margin-top: 24px;
+    border: none;
+}
+
+.input_group span{
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    color: crimson;
+}
+
+.Error_main{
+    color: crimson;
+    margin-top: 16px;
+}
+
+.success {
+    color: green;
+}
+
+.white{
+    color: aliceblue;
+}

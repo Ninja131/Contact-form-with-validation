@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <!-- outer container -->
+     <div class="contact_container">
+
+        <div class="Contact_logo"><i class="fa-regular fa-file-lines"></i></div>
+    <!-- groups -->
+
+
+        <div class="input_group">
+          <label>Full Name</label>
+          <input id="name" type="text" placeholder="Enter your Name"  onkeyup="validate_name()">
+         <span class="Name_error"></span>
+        </div>
+
+
+        <div class="input_group">
+          <label>Phone No.</label>
+          <input id="phoneN" type="text" placeholder="Enter your Phone Number" onkeyup="validate_Phone()">
+         <span class="Phone_error"></span>
+        </div>
+
+        <div class="input_group">
+          <label>Email id</label>
+          <input id="email" type="text" placeholder="Enter your Email" onkeyup="validate_Email()"  >
+         <span class="Email_error"></span>
+        </div>
+
+        <div class="input_group">
+          <label class="Message">Your Message</label>
+          <textarea id="para" class="Text_box" placeholder="Enter your message" onkeyup="validate_Text()"></textarea>
+         <span class="para_error"></span>
+        </div>
+
+        <button class="Button" onmousedown="Validate_form()">Submit</button>
+        <span class="Error_main"></span>
+
+
+
+
+        
+     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
